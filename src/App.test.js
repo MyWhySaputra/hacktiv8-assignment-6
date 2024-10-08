@@ -59,4 +59,5 @@ test("renders App component with NavBar, image banner, and Footer", async () => 
   const instagramLink = screen.getByTestId("link-instagram");
   expect(instagramLink).toBeInTheDocument();
   expect(instagramLink).toHaveAttribute("href", "https://instagram.com/");
+  
 });
